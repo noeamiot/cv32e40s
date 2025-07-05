@@ -35,7 +35,7 @@ module cv32e40s_core import cv32e40s_pkg::*;
   parameter rv32_e                      RV32                                    = RV32I,
   parameter b_ext_e                     B_EXT                                   = B_NONE,
   parameter m_ext_e                     M_EXT                                   = M,
-  parameter bit                         DEBUG                                   = 1,
+  parameter bit                         DEBUG                                   = 0,
   parameter logic [31:0]                DM_REGION_START                         = 32'hF0000000,
   parameter logic [31:0]                DM_REGION_END                           = 32'hF0003FFF,
   parameter int                         DBG_NUM_TRIGGERS                        = 1,
